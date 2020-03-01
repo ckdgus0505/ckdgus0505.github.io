@@ -29,7 +29,7 @@ Generating
 
 원본 데이터는 225번 화자의 첫번째 파일 입니다.
 <audio controls>
-    <source src='https://github.com/ckdgus0505/ckdgus0505.github.io/tree/master/_posts/2020-03-01-VQ-VAE_file/Original.wav'>
+    <source src='https://ckdgus0505.github.io/_posts/2020-03-01-VQ-VAE_file/ㅒ갸햐ㅜ미.wav'>
 </audio>
 
 이 음성 파일을 226, 227, 228번 화자의 목소리로 변환 하였습니다.
@@ -37,19 +37,19 @@ Generating
 + 226번 화자
 
 <audio controls>
-    <source src='https://github.com/ckdgus0505/ckdgus0505.github.io/tree/master/_posts/2020-03-01-VQ-VAE_file/to_226.wav'>
+    <source src='https://ckdgus0505.github.io/_posts/2020-03-01-VQ-VAE_file/to_226.wav'>
 </audio>
 
 + 227번 화자
 
 <audio controls>
-    <source src='https://github.com/ckdgus0505/ckdgus0505.github.io/tree/master/_posts/2020-03-01-VQ-VAE_file/to_227.wav'>
+    <source src='https://ckdgus0505.github.io/_posts/2020-03-01-VQ-VAE_file/to_227.wav'>
 </audio>
 
 + 228번 화자
 
 <audio controls>
-    <source src='https://github.com/ckdgus0505/ckdgus0505.github.io/tree/master/_posts/2020-03-01-VQ-VAE_file/to_228.wav'>
+    <source src='https://ckdgus0505.github.io/_posts/2020-03-01-VQ-VAE_file/to_228.wav'>
 </audio>
 
 들어보면 알겠지만, 생성된 소리의 해상도가 매우 좋지 않습니다.
