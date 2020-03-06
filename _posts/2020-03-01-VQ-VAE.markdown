@@ -27,7 +27,7 @@ Generating
 
 원본 데이터는 225번 화자의 첫번째 파일 입니다.
 <audio controls>
-    <source src='https://drive.google.com/file/d/1XR0J8754f-f_P_Mjb_5u1edcvA8rL1PX/view?usp=sharing'>
+    <source src='https://drive.google.com/file/d/1XR0J8754f-f_P_Mjb_5u1edcvA8rL1PX/view'>
 </audio>
 
 이 음성 파일을 226, 227, 228번 화자의 목소리로 변환 하였습니다.
@@ -35,19 +35,19 @@ Generating
 + 226번 화자
 
 <audio controls>
-    <source src='https://drive.google.com/file/d/14Ak2baj_DpNJToI_AkxhYfPUNBXmyl-C/view?usp=sharing'>
+    <source src='https://drive.google.com/file/d/14Ak2baj_DpNJToI_AkxhYfPUNBXmyl-C/view'>
 </audio>
 
 + 227번 화자
 
 <audio controls>
-    <source src='https://drive.google.com/file/d/1rsTV7Wb5nCIYi5jH9-xh06igyAYleNpo/view?usp=sharing'>
+    <source src='https://drive.google.com/file/d/1rsTV7Wb5nCIYi5jH9-xh06igyAYleNpo/view'>
 </audio>
 
 + 228번 화자
 
 <audio controls>
-    <source src='https://drive.google.com/file/d/1xJbBYbqGWbx5YKRsYMN_6-lVK5veehNX/view?usp=sharing'>
+    <source src='https://drive.google.com/file/d/1xJbBYbqGWbx5YKRsYMN_6-lVK5veehNX/view'>
 </audio>
 
 
