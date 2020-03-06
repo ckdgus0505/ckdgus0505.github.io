@@ -7,29 +7,27 @@ date:   2020-03-01 00:00:00
 가지고 있는 장비로는 마땅하지 않아 AZURE 서비스를 이용하여 virtual machine 을 하나 할당 받아 수행하였습니다.
 가상머신의 스펙은 대략 이러합니다.
 
-|H/W  |SPCE  |
-|------|------|
-|CPU | 6 core vcpu|
-|RAM | 56GiB|
-|GPU | 1x K80|
+H/W SPCE  
+CPU : 6 core vcpu
+RAM : 56GiB
+GPU : 1x K80
 
-|S/W | SPCE|
-|---|---|
-|OS|UBUNTU 16.04|
-|Python| 3.5.2|
-|TENSORFLOW| 1.14.0|
-|CUDA| 9.0|
+S/W SPCE
+OS         : UBUNTU 16.04
+Python     : 3.5.2
+TENSORFLOW : 1.14.0
+CUDA       : 9.0
 
 Training
 -------------------------------
-[VCTK corpus dataset][VCTK_dataset]을 8batch,  25000 setp 학습을 진행하였습니다. 대략 24시간 정도의 학습 시간이 필요하였습니다.
+[VCTK corpus dataset][VCTK_dataset]을 1batch,  700000 setp 학습을 진행하였습니다. 대략 100시간 정도의 학습 시간이 필요하였습니다.
 
 Generating
 --------------------------------
 
 원본 데이터는 225번 화자의 첫번째 파일 입니다.
 <audio controls>
-    <source src='https://github.com/ckdgus0505/ckdgus0505.github.io/blob/master/_posts/2020-03-01-VQ-VAE_file/Original.wav'>
+    <source src='https://drive.google.com/file/d/1XR0J8754f-f_P_Mjb_5u1edcvA8rL1PX/view?usp=sharing'>
 </audio>
 
 이 음성 파일을 226, 227, 228번 화자의 목소리로 변환 하였습니다.
@@ -37,23 +35,21 @@ Generating
 + 226번 화자
 
 <audio controls>
-    <source src='https://github.com/ckdgus0505/ckdgus0505.github.io/blob/master/_posts/2020-03-01-VQ-VAE_file/to_226.wav'>
+    <source src='https://drive.google.com/file/d/14Ak2baj_DpNJToI_AkxhYfPUNBXmyl-C/view?usp=sharing'>
 </audio>
 
 + 227번 화자
 
 <audio controls>
-    <source src='https://github.com/ckdgus0505/ckdgus0505.github.io/blob/master/_posts/2020-03-01-VQ-VAE_file/to_227.wav'>
+    <source src='https://drive.google.com/file/d/1rsTV7Wb5nCIYi5jH9-xh06igyAYleNpo/view?usp=sharing'>
 </audio>
 
 + 228번 화자
 
 <audio controls>
-    <source src='https://github.com/ckdgus0505/ckdgus0505.github.io/blob/master/_posts/2020-03-01-VQ-VAE_file/to_228.wav'>
+    <source src='https://drive.google.com/file/d/1xJbBYbqGWbx5YKRsYMN_6-lVK5veehNX/view?usp=sharing'>
 </audio>
 
-들어보면 알겠지만, 생성된 소리의 해상도가 매우 좋지 않습니다.
-이는 학습 시간이 부족했기 때문이라고 생각합니다. 
 
 [VQ_VAE_page]:https://github.com/DongyaoZhu/VQ-VAE-WaveNet
 [VCTK_dataset]:http://homepages.inf.ed.ac.uk/jyamagis/release/
